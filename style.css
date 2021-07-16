@@ -1,0 +1,96 @@
+/* Section 1 */
+.navbar{
+    height: 150px;
+}
+
+.tombol{
+    border-radius: 20px;
+}
+
+/* Section 3 */
+.about{
+    background-color: #7510f7;
+    color: white;
+    height: 700px;
+    padding-top: 90px;
+    text-align: center;
+}
+
+.card{
+    margin-top: -90px;
+    text-align: center;
+    height: 600px;
+    border-radius: 20px;
+}
+
+.card img{
+    margin-left: 80px;
+}
+
+/* Section 4 */
+.portfolio img{
+    border-radius: 20px;
+    margin-top: 10px;
+    
+}
+
+/* Section 6 */
+.startup{
+    margin-top: 40px;
+    background-color: #7510f7;
+    text-align: center;
+    height: 500px;
+    padding-top: 30px;
+    color: white;
+}
+
+.conversation{
+    margin-top: 1600px;
+}
+
+/* Section 7 */
+.footer{
+    background-color: #7510f7;
+    height: 500px;
+    margin-top: -120px;
+    color: white;
+    padding-top: 200px;
+}
+
+ .footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+ }
+
+ .footer ul li img{
+     height: 50px;
+     width: 50px;
+ }
+
+
+/* Desktop Version */
+@media(min-width:992px){
+    .about{
+        background-color: #7510f7;
+        color: white;
+        height: 500px;
+        padding-top: 90px;
+        text-align: center;
+    }
+
+    .card{
+        margin-top: -110px;
+        text-align: center;
+    }
+
+    .card img{
+        margin-left: 150px;
+    }
+
+    .conversation{
+        margin-top: 600px;
+    }
+
+    
+}
